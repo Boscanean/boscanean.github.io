@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100;1,700&family=Mali:ital,wght@0,200;0,700;1,200&family=Montserrat+Alternates:ital,wght@0,100;1,100;1,700&family=Spectral+SC:ital,wght@0,200;0,700;1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">My Website Design System</h1>
+    <fieldset class="colors">
+        <legend><h1>Colors</h1></legend>
+        <div class="box aqua">
+            <p>Aqua</p>
+            <p>#00FFFF</p>
+        </div>
+        <div class="box brown">
+            <p>Brown</p>
+            <p>#A52A2A</p>
+        </div>
+        <div class="box chartreuse">
+            <p>Chartreuse</p>
+            <p>#7FFF00</p>
+        </div>
+        <div class="box cornsilk">
+            <p>Cornsilk</p>
+            <p>#FFF8DC</p>
+        </div>
+        <div class="box darkcyan">
+            <p>DarkCyan</p>
+            <p>#008B8B</p>
+        </div>
+        <div class="box darkorange">
+            <p>Darkorange</p>
+            <p>#FF8C00</p>
+        </div>
+        <div class="box deeppink">
+            <p>Deeppink</p>
+            <p>#FF1493</p>
+        </div>
+        <div class="box yellow">
+            <p>Yellow</p>
+            <p>#FFFF00</p>
+        </div>
+        <div class="box springgreen">
+            <p>SpringGreen</p>
+            <p>#00FF7F</p>
+        </div>
+        <div class="box red">
+            <p>Red</p>
+            <p>#FF0000</p>
+        </div>
+        <div class="box blue">
+            <p>Blue</p>
+            <p>#0000FF</p>
+        </div>
+        <div class="box gray">
+            <p>Gray</p>
+            <p>#808080</p>
+        </div>
+    </fieldset>
+    <select name="cars" id="colors">
+        <option value="white">White</option>
+        <option value="deeppink">Deeppink</option>
+        <option value="gray">Gray</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="springgreen">SpringGreen</option>
+        <option value="yellow">Yellow</option>
+        <option value="darkorange">Darkorange</option>
+        <option value="cornsilk">Cornsilk</option>
+        <option value="darkcyan">Darkcyan</option>
+        <option value="brown">Brown</option>
+        <option value="aqua">aqua</option>
+        <option value="chartreuse">Chartreuse</option>
+      </select>
+    <fieldset class="fonts">
+        <legend><h1>Fonts</h1></legend>
+        <div class="josefinSans">
+            <p class="selector">Josefin Sans</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+        </div>
+        <div class="mali">
+            <p class="selector">Mali</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+        </div>
+        <div class="montserratAlternates">
+            <p class="selector">Montserrat Alternate</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+        </div>
+        <div class="spectralSc">
+            <p class="selector">Spectral SC</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+            <p>Almost before we knew it, we had left the ground.</p>
+        </div>
+    </fieldset>
+    <fieldset class="textStyle">
+        <legend><h1>Text Style</h1></legend>
+        <div>
+            <h1>H1: Page Heading</h1>
+            <ul>
+                <li>Font-weight: 700 (bold)</li>
+                <li>Font-size: 26px</li>
+                <li>Font-family: Josefin Sans</li>
+            </ul>
+        </div>
+        <div>
+            <h2>H2: Subheading</h2>
+            <ul>
+                <li>Font-weight: 500</li>
+                <li>Font-size: 16px</li>
+                <li>Font-family: Spectral SC</li>
+            </ul>
+        </div>
+        <div>
+            <p>P:Paragraph text</p>
+            <ul>
+                <li>Font-weight: 100</li>
+                <li>Font-size: 14px</li>
+                <li>Font-family: Mali</li>
+            </ul>
+        </div>
+    </fieldset>
+    <script src="index.js"></script>
+</body>
+</html>
