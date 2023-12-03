@@ -159,7 +159,7 @@ legend{
 .textStyle {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: rgb(139, 139, 139);
+  background-color:red;
   padding: 10px;
   text-align: left;
   margin: 0 auto;
