@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(202, 202, 202);
+}
+.title{
+  text-align: center;
+}
+.title , legend>h1{
+  margin-bottom: 10px;
+  font-size:40px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px rgb(0, 0, 0), -3px -3px rgb(0, 0, 0) , 3px -3px rgb(0, 0, 0),-3px 3px rgb(0, 0, 0),2px 2px rgb(0, 0, 0), -2px -2px rgb(0, 0, 0) , 2px -2px rgb(0, 0, 0),-2px 2px rgb(0, 0, 0);
+  letter-spacing: 3px;
+}
+.colors {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgb(139, 139, 139);
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  border: 3px solid rgb(2, 2, 2);
+  margin-bottom: 50px;
+}
+.colors>div{
+  height: 100px;
+  padding-top: 20px;
+  font-size: 20px;
+  border: 2px solid rgb(255, 255, 255);
+}
+legend{
+  text-align: left;
+}
+
+.aqua{
+    background-color:aqua;
+}
+.brown{
+    background-color: brown;
+}
+.chartreuse{
+    background-color: chartreuse;
+}
+.cornsilk{
+    background-color: cornsilk;
+}
+.darkorange{
+    background-color: darkorange;
+}
+.deeppink{
+  background-color: deeppink;
+}
+.yellow{
+  background-color: yellow;
+}
+.springgreen{
+  background-color: springgreen;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.gray{
+  background-color: gray;
+}
+.darkcyan{
+  background-color: darkcyan;
+}
+
+.fonts {
+  background-color: rgb(139, 139, 139);
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  border: 3px solid rgb(2, 2, 2);
+  margin-bottom: 50px;
+}
+.fonts div{
+    margin-bottom: 40px;
+}
+
+.fonts div>p:nth-of-type(1){
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.josefinSans{
+  font-family: "Josefin Sans";
+  font-size: 30px;
+}
+.josefinSans h2{
+  font-size: 40px;
+}
+.josefinSans p:nth-of-type(3){
+  font-weight: 700;
+}
+.josefinSans p:nth-of-type(4){
+  font-style: italic;
+}
+
+
+
+
+.mali{
+  font-family: "mali";
+  font-size: 30px;
+}
+.mali h2{
+  font-size: 40px;
+  font-weight: 100;
+}
+.mali p:nth-of-type(3){
+  font-weight: 700;
+}
+.mali p:nth-of-type(4){
+  font-style: italic;
+}
+
+
+
+.montserratAlternates{
+  font-family: "Montserrat Alternates";
+  font-size: 25px;
+}
+.montserratAlternates p:nth-of-type(3){
+  font-weight: 700;
+}
+.montserratAlternates p:nth-of-type(4){
+  font-style: italic;
+}
+
+
+
+.spectralSc{
+  font-family: "Spectral SC";
+  font-size: 25px;
+}
+.spectralSc p:nth-of-type(3){
+  font-weight: 700;
+}
+.spectralSc p:nth-of-type(4){
+  font-style: italic;
+}
+
+.textStyle {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(139, 139, 139);
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  border: 3px solid rgb(2, 2, 2);
+  margin-bottom: 50px;
+}
+ul{
+    margin:10px 50px;
+}
+select{
+    margin-left: 300px;
+}
